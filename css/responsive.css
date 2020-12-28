@@ -1,0 +1,92 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .header-section {
+    width: 100%;
+    background: url(../images/banner.png)center top no-repeat;
+    background-size: cover;
+    padding: 5px 0px 115px;
+    }
+  .header-section .inner-banner h4 {
+    text-align: right;
+    font-size: 33px;
+    font-weight: 400;
+    color: white;
+    padding: 0px 0px 14px 0px;
+   }
+
+   .header-section .inner-banner p {
+    text-align: right;
+    padding: 0px 0px 14px 80px;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    }
+    .header-section .inner-banner .btn {
+    margin-left: 93px;
+    background: #7954b6;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 25px;
+    transition: 1s;
+   }
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  .header-section {
+    width: 100%;
+    background: url(../images/banner.png)center top no-repeat;
+    background-size: cover;
+    padding: 5px 0px 115px;
+    }
+  .header-section .inner-banner h4 {
+    text-align: right;
+    font-size: 33px;
+    font-weight: 400;
+    color: white;
+    padding: 0px 0px 14px 0px;
+   }
+
+   .header-section .inner-banner p {
+    text-align: right;
+    padding: 0px 0px 14px 80px;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    }
+    .header-section .inner-banner .btn {
+        margin-left: 253px;
+    background: #7954b6;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 25px;
+    transition: 1s;
+   }
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+

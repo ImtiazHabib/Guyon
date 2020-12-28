@@ -1,0 +1,555 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/*Gyon project strat here*/
+
+/*HEADER part start */
+.header-section{
+	width: 100%;
+	background: url(../images/banner.png)center top no-repeat;
+	background-size: cover;
+	padding: 5px 0px 115px;
+}
+.header-section .main-menu .bg-light{
+	background: transparent !important;
+}
+.header-section .main-menu .navbar-brand{
+	    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	       color: white;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 1s;
+    border: 1px solid white;
+    border-radius: 25px;
+   
+}
+.navbar-light .navbar-nav .active>.nav-link:hover{
+	   border: 1px solid white;
+    border-radius: 25px;
+}
+.header-section .main-menu .navbar-nav .nav-link{
+	       color: white;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 1s;
+    padding: 8px 8px 8px 8px;
+    margin: 5px 5px 5px 5px;
+    
+}
+.header-section .main-menu .navbar-nav .nav-link:hover{
+	   border: 1px solid white;
+    border-radius: 25px;
+}
+.header-section .inner-banner{
+        width: 100%;
+    padding: 55px 5px 7px 5px;
+    margin: 34px 5px 5px 5px;
+}
+.header-section .inner-banner h4{
+	       font-size: 36px;
+    font-weight: 400;
+    color: white;
+    padding: 0px 0px 14px 0px;
+}
+.header-section .inner-banner p{
+	    padding: 0px 0px 14px 0px;
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+}
+.header-section .inner-banner .btn{
+	    background: #7954b6;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 25px;
+    transition: 1s;
+}
+.header-section .inner-banner .btn:hover{
+	background: transparent;
+	color:  white;
+	border: 1px solid white;
+    border-radius: 25px;
+
+}
+
+/* header part end */
+/*features-section start */
+.features-section{
+	width: 100%;
+	padding: 30px 0px 40px;
+}
+.features-section .inner-features-section-title{
+    width: 100%;
+    text-align: center;
+}
+.features-section .inner-features-section-title h4{
+	    font-size: 36px;
+    font-weight: 400;
+    color: #9591c2;
+    padding: 6px 0px 2px 0px;
+}
+.features-section .inner-features-section-title p{
+	 padding: 0px 0px 14px 0px;
+    font-size: 15px;
+    color:#8f8f8f;
+    font-weight: 300;
+}
+.features-section .inner-img{
+	width: 100%;
+	position: relative;
+}
+
+.features-section .inner-img .img1{
+	    position: absolute;
+    width: 53%;
+    top: 44px;
+    left: 95px;
+    transition: 2s;
+}
+.features-section .inner-img .img1:hover{
+	   position:relative;
+    top:-374px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+.features-section .inner-img .img2{
+	         position: absolute;
+    width: 53%;
+    top: 0px;
+    right: 330px;
+    transition: 2s;
+}
+
+.features-section .inner-img .img3{
+	        position: absolute;
+    width: 53%;
+    top: 0px;
+    left: 215px;
+    transition: 2s;
+	
+}
+.features-section .inner-img .img4{
+	     position: absolute;
+    width: 53%;
+    top: 106px;
+    right: 0px;
+    transition: 2s;
+	
+}
+.features-section .inner-img .img2:hover{
+	   position:relative;
+    top:287px;
+    left:-45px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+.features-section .inner-img .img3:hover{
+	   position:relative;
+    top:-25px;
+    left:418px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+.features-section .inner-img .img4:hover{
+	   position:relative;
+    top:171px;
+    left:452px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+.features-section .inner-features-section-part3{
+	width: 100%;
+	padding: 40px 0px;
+}
+.features-section .inner-features-section-part3 .view_all{
+    padding: 0px 0px 7px 0px;
+    margin: 76px 5px 5px 111px;
+    font-size: 16px;
+}
+.features-section .inner-features-section-part3 .view_all a{
+     color: #f2c2d4;
+     transition: 1s;
+
+}
+.features-section .inner-features-section-part3 .view_all a:hover{
+     color: #f2c2d4;
+     font-weight: 700;
+}
+.features-section .inner-features-section-part3 .media{
+    padding: 0px 0px 7px 0px;
+    margin: 13px 5px 5px 21px;
+}
+.features-section .inner-features-section-part3 img{
+     padding: 0px 0px 7px 0px;
+    margin: 5px 5px 5px 5px;
+    width: 14%;
+}
+.features-section .inner-features-section-part3 h5{
+    color: #8f73c1;
+    font-size: 26px;
+    font-weight: 400;
+    padding: 0px 0px 7px 0px;
+    margin: 0px 5px 5px 5px;
+}
+.features-section .inner-features-section-part3 p{
+    margin: 5px 5px 5px 5px;
+    font-size: 15px;
+    color: #747474;
+    font-weight: 300;
+}
+/*features-section end */
+
+/*about section start*/
+.about-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: url(../images/aboutbg.png)center top no-repeat;
+	background-size: cover;
+}
+.about-section .inner-about-section-part1{
+    padding: 0px 0px 7px 0px;
+    margin: 0px 5px 121px 5px;
+}
+.about-section .inner-about-section-part1 h4{
+	        font-size: 44px;
+    font-weight: 400;
+    color: white;
+    padding: 6px 0px 2px 0px;
+}
+.about-section .inner-about-section-part1 p{
+	    padding: 0px 0px 14px 0px;
+    font-size: 15px;
+    color: #cdc9d3;
+    font-weight: 300;
+}
+.about-section .inner-about-section-part1 img{
+	width: 9%;
+}
+.about-section .inner-about-section-part2{
+    padding: 0px 27px 7px 14px;
+    margin: 0px 5px 5px 5px;
+}
+.about-section .inner-about-section-part2 h5{
+     color: #f8f6fa;
+    font-size: 26px;
+    font-weight: 400;
+    padding: 0px 0px 7px 0px;
+    margin: 0px 5px 5px 5px;
+}
+.about-section .inner-about-section-part2 p{
+     margin: 5px 5px 5px 5px;
+    font-size: 15px;
+    color: #d2d0d5;
+    font-weight: 300;
+}
+.about-section .part3{
+    padding: 0px 0px 0px 0px;
+    margin: 75px 0px 0px -11px;
+}
+/*about section end */
+
+/*video section start*/
+.video-section{
+	width: 100%;
+
+}
+/*video section end*/
+/*screenshot section start*/
+.screenshot-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.screenshot-section .inner-screenshot-section-left{
+	width: 100%;
+}
+.screenshot-section .inner-screenshot-section-left .inner-part1{
+       padding: 0px 0px 122px 0px;
+    margin: 0px 5px 5px 0px;
+}
+.screenshot-section .inner-screenshot-section-left .inner-part1 h4{
+	    font-size: 36px;
+    font-weight: 400;
+    color: #9591c2;
+    padding: 6px 0px 2px 0px;
+} 
+.screenshot-section .inner-screenshot-section-left .inner-part1 p{
+	    padding: 0px 0px 14px 0px;
+    font-size: 15px;
+    color: #8f8f8f;
+    font-weight: 300;
+}   
+.screenshot-section .inner-screenshot-section-left .inner-part2{
+	    padding: 0px 0px 54px 0px;
+    margin: 0px 5px 5px 0px;
+}
+.screenshot-section .inner-screenshot-section-left .inner-part2 h5{
+	    color: #8f73c1;
+    font-size: 26px;
+    font-weight: 400;
+    padding: 0px 0px 7px 0px;
+    margin: 0px 5px 5px 5px;
+}
+.screenshot-section .inner-screenshot-section-left .inner-part2 p{
+	    margin: 5px 5px 5px 5px;
+    font-size: 15px;
+    color: #747474;
+    font-weight: 300;
+}
+.screenshot-section .inner-screenshot-section-right{
+	
+}
+.screenshot-section .inner-screenshot-section-right .owl-carousel{
+    width: 103%;
+    
+}
+.screenshot-section .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #6d68a3;
+}
+/*screenshot section end */
+
+/*pricing section star */
+.pricing-section{
+    width: 100%;
+    padding: 0px 0px 80px;
+}
+.pricing-section .inner-pricing-section-part1{
+    text-align: center;
+    padding: 0px 0px 88px;
+}
+.pricing-section .inner-pricing-section-part1 h4{
+    font-size: 37px;
+    font-weight: 600;
+    color: #9591c2;
+    padding: 6px 0px 2px 0px;
+}
+.pricing-section .inner-pricing-section-part1 p{
+           padding: 13px 0px 0px 0px;
+    font-size: 19px;
+    color: #8f8f8f;
+    font-weight: 300;
+}
+.pricing-section .inner-pricing-section-part1 img{
+    width: 14%;
+    margin-top: 15px;
+    margin-bottom: 26px;
+}
+.pricing-section .inner-pricing-section-part2-card{
+        text-align: center;
+        animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {box-shadow: 10px 20px 30px blue;}
+}
+.pricing-section .inner-pricing-section-part2-card .card-header{
+           color: #7954b6;
+    background: transparent;
+    font-size: 21px;
+    font-weight: 500;
+}
+.pricing-section .inner-pricing-section-part2-card .card-body .amount{
+         font-size: 42px;
+    font-weight: 700;
+}
+.pricing-section .inner-pricing-section-part2-card .card-body .sup{
+          font-size: 23px;
+    position: relative;
+    top: -20px;
+}
+.pricing-section .inner-pricing-section-part2-card .card-body .card-title{
+    color: #7954b6;
+    padding: 5px 5px 24px 5px;
+    margin: 5px 5px 5px 5px;
+}
+.pricing-section .inner-pricing-section-part2-card .card-body .card-text{
+       padding: 5px 5px 24px 4px;
+    margin: 5px 5px 25px 5px;
+    color: #a7a7a7;
+    font-size: 18px;
+    line-height: 37px;
+}
+.mark{
+    color: #7954b6;
+    background: transparent;
+}
+.pricing-section .inner-pricing-section-part2-card .card-body .card-text .fa {
+
+}
+.pricing-section .inner-pricing-section-part2-card .card-body .btn{
+       background: #8e5edd;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 22px;
+    font-weight: 400;
+    border-radius: 25px;
+    transition: 1s;
+}
+.pricing-section .inner-pricing-section-part2-card .card-body .btn:hover{
+       background: transparent;
+    color: #f34791;
+    border: 2px solid #7954b6;
+}
+/*pricing section end */
+/*what are section start*/
+.what-are-section{
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../images/download.png)center top no-repeat;
+    background-size: cover;
+}
+.what-are-section .inner-what-are-section-part1{
+    text-align: center;
+    padding: 0px 0px 88px;
+}
+.what-are-section .inner-what-are-section-part1 h4{
+    font-size: 37px;
+    font-weight: 600;
+    color: #9591c2;
+    padding: 6px 0px 2px 0px;
+}
+.what-are-section .inner-what-are-section-part1 p{
+           padding: 13px 0px 0px 0px;
+    font-size: 19px;
+    color: #8f8f8f;
+    font-weight: 300;
+}
+.what-are-section .iinner-what-are-section-part1 img{
+    width: 14%;
+    margin-top: 15px;
+    margin-bottom: 26px;
+}
+.what-are-section .button-group{
+    text-align: center;
+}
+.what-are-section .button-group .btn-primary{
+        font-weight: 300;
+    background: transparent;
+    font-size: 27px;
+    margin-right: 40px;
+    border: 1px solid white;
+    border-radius: 25px;
+    transition: 1s;
+
+}
+.what-are-section .button-group .btn-secondary{
+       font-weight: 300;
+    background: transparent;
+    font-size: 27px;
+    margin-right: 40px;
+    border: 1px solid white;
+    border-radius: 25px;
+    transition: 1s;
+
+}
+.what-are-section .button-group .fa{
+    margin-right: 11px;
+}
+.what-are-section .button-group .btn-primary:hover{
+   background: #2a96af;
+}
+.what-are-section .button-group .btn-secondary:hover{
+   background: #ea8554;
+  
+}
+/*what are section end */
+.footer{
+    width: 100%;
+    padding: 80px 0px;
+     background: #f2f2f6;
+
+}
+.footer .first{
+    margin-top:225px;
+}
+
+.footer .first h4{
+        font-size: 36px;
+    font-weight: 400;
+    color: #9591c2;
+    padding: 6px 0px 2px 0px;
+}
+.footer .first p{
+        padding: 0px 0px 14px 0px;
+    font-size: 15px;
+    color: #8f8f8f;
+    font-weight: 300;
+}
+.footer .social-icon {
+    padding: 0px 6px 0px 0px;
+    margin: 0px 0px 18px 0px;
+}
+.footer .social-icon .fa {
+    transition: 1s;
+    font-size: 17px;
+    padding: 10px 21px 0px 0px;
+    margin: 0px 0px 18px 0px;
+}
+.footer .social-icon .fa:hover {
+    color: #845cff;
+}
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer  .divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.footer  .divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.footer  .btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+    transition: 1s;
+}
+.footer  .btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+    transition: 1s;
+
+}
+.footer  .btn-facebook:hover {
+  color: #845cff;
+}
+.footer  .btn-twitter:hover {
+  color: #845cff;
+}
+/* Gyon project end here */
