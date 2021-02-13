@@ -37,6 +37,90 @@
     border-radius: 25px;
     transition: 1s;
    }
+   .about-section .inner-about-section-part1 p {
+    text-align: center;
+    padding: 0px 0px 14px 0px;
+    font-size: 15px;
+    color: #cdc9d3;
+    font-weight: 300;
+}
+.about-section .inner-about-section-part1 img {
+    margin: 0px 0px 0px 129px;
+    width: 20%;
+}
+.about-section .inner-about-section-part1 {
+    padding: 0px 0px 7px 0px;
+    margin: 0px 5px 102px 5px;
+}
+.about-section .inner-about-section-part2 {
+    text-align: center;
+    padding: 0px 23px 7px 14px;
+    margin: 0px 5px 21px 5px;
+}
+.about-section .inner-about-section-part2 p {
+    margin: 5px 5px 5px 5px;
+    font-size: 14px;
+    color: #d2d0d5;
+    font-weight: 300;
+}
+.screenshot-section .inner-screenshot-section-left .inner-part1 {
+    text-align: center;
+    padding: 0px 0px 122px 0px;
+    margin: 0px 5px 5px 0px;
+}
+.screenshot-section .inner-screenshot-section-left .inner-part2 p {
+    margin: 5px 5px 5px 5px;
+    font-size: 16px;
+    color: #747474;
+    font-weight: 300;
+}
+.pricing-section .inner-pricing-section-part2-card {
+    text-align: center;
+    margin-top: 20px;
+    animation: mymove 5s infinite;
+}
+.what-are-section .button-group .btn-primary {
+    margin-bottom: 17px;
+    font-weight: 300;
+    background: transparent;
+    font-size: 22px;
+    margin-right: 40px;
+    border: 1px solid white;
+    border-radius: 25px;
+    transition: 1s;
+}
+.what-are-section .button-group .btn-secondary {
+    font-weight: 300;
+    background: transparent;
+    font-size: 22px;
+    margin-right: 40px;
+    border: 1px solid white;
+    border-radius: 25px;
+    transition: 1s;
+}
+.footer .first {
+    margin-top: 22px;
+}
+.footer .first h4 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    color: #9591c2;
+    padding: 6px 0px 2px 0px;
+}
+.footer .first p {
+    text-align: center;
+    padding: 0px 0px 14px 0px;
+    font-size: 17px;
+    color: #8f8f8f;
+    font-weight: 300;
+}
+.footer .social-icon .fa {
+    transition: 1s;
+    font-size: 23px;
+    padding: 10px 21px 0px 0px;
+    margin: 0px 0px 18px 0px;
+}
 }
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -77,6 +161,19 @@
     border-radius: 25px;
     transition: 1s;
    }
+   .header-section .main-menu .navbar-nav .nav-link {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 1s;
+    padding: 8px 8px 8px 8px;
+    margin: 5px 5px 5px 5px;
+}
+.screenshot-section .inner-screenshot-section-left .inner-part1 {
+    padding: 0px 0px 58px 0px;
+    margin: 0px 5px 5px 0px;
+}
 }
 /* 
   ##Device = Tablets, Ipads (portrait)
